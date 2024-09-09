@@ -1,0 +1,19 @@
+# This file is used by pip to install required python packages
+# Usage: pip install -r requirements.txt
+
+# Flask Framework
+Flask==2.2.5
+
+# Flask Packages
+PyMySQL
+redis
+Jinja2==3.1.4
+MarkupSafe==2.1.5
+Werkzeug==2.2.3
+flask_sqlalchemy==3.0.5
+flask_caching
+faker
+
+# Automated tests
+pytest==3.0.5
+pytest-cov==2.4.0
